@@ -38,3 +38,27 @@ Program -- collection of data and set of operations to work on the data
 Computers -- used to perform computational tasks (those done using pen and paper)
 
 Programmer (natural language) --> High-level Language (C++, Python, Java, etc.) --> Assembly Language (used for conversion from high-level to machine language) --> CPU / Computer (uses machine language - which is a low level binary code)
+
+Programs are also called source code
+
+check errors --> convert to machine code --> Execution of the program
+
+Compiler Based Languages: (C++)
+Compilers job is to convert source code into machine code
+e.g., first.cpp (source code) -- first.exe (machine code)
+Faster compared to Interpreter as they produce separate files
+
+Interpreter Based Languages: (JavaScript)
+Interpreter takes the responsibility of Execution of the program
+Chrome works as an interpreter for JavaScript
+Translates code line by line -- Convert into machine code -- Code will be executed
+Interpreter Languages are easier to write compared to Compiler-based languages
+
+Hybrid Languages: (Java or C#)
+Compiler converts the source code into Byte code (after checking for errors) -- using JVM (acts as an interpreter) producing machine code
+
+Operating systems: (Windows, Linux, Mac OSX)
+Master program (operating system is also a program) -- utilizing all the resources of the computer system and provide service to the user
+(resources could be accessing internet, accessing files, etc.)
+When we want to work on some program -- in the presence of OS, the program is brought into the main memory -- and CPU works on it
+If the program wants to interact with peripherals (such as monitor, or keyboard) -- it has to ask the OS for the access first (called System calls or API)
