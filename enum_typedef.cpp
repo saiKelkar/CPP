@@ -1,1 +1,0 @@
-// Enum -- user-defined datatypes
